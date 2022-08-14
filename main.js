@@ -256,9 +256,9 @@ Indíts el egy új játékot az alábbi függvény segítségével!
 
 Hozz létre a HTML-ben a játéktéren kívül egy gombot!
 */
-const newGameBtn = document.querySelector(".new-game-btn");
+const gameBtn = document.querySelector(".new-game-btn");
 const newGame = () => {
-  newGameBtn.addEventListener("click", () => {
+    gameBtn.addEventListener("click", () => {
     initState(),
       addClickListener(),
       deleteSigns(),
